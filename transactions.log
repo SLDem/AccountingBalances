@@ -1,0 +1,20 @@
+2024-09-26 12:59:35,824 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-26 12:59:35,824 [33mPress CTRL+C to quit[0m
+2024-09-26 12:59:35,825  * Restarting with stat
+2024-09-26 12:59:36,298  * Debugger is active!
+2024-09-26 12:59:36,307  * Debugger PIN: 858-028-169
+2024-09-26 12:59:41,716 127.0.0.1 - - [26/Sep/2024 12:59:41] "[35m[1mPOST /create_account HTTP/1.1[0m" 201 -
+2024-09-26 12:59:47,383 Deposit: Account 1: +200.0
+2024-09-26 12:59:47,383 127.0.0.1 - - [26/Sep/2024 12:59:47] "POST /deposit HTTP/1.1" 200 -
+2024-09-26 12:59:48,235 Deposit: Account 1: +200.0
+2024-09-26 12:59:48,236 127.0.0.1 - - [26/Sep/2024 12:59:48] "POST /deposit HTTP/1.1" 200 -
+2024-09-26 13:04:20,346  * Detected change in 'D:\\Work\\pythonProjectTestTask\\app.py', reloading
+2024-09-26 13:04:20,381  * Restarting with stat
+2024-09-26 13:04:21,558  * Debugger is active!
+2024-09-26 13:04:21,567  * Debugger PIN: 858-028-169
+2024-09-26 13:06:50,811 127.0.0.1 - - [26/Sep/2024 13:06:50] "[33mPOST /create_account HTTP/1.1[0m" 404 -
+2024-09-26 13:06:59,951 127.0.0.1 - - [26/Sep/2024 13:06:59] "[35m[1mPOST /create-account HTTP/1.1[0m" 201 -
+2024-09-26 13:07:04,058 127.0.0.1 - - [26/Sep/2024 13:07:04] "[35m[1mPOST /create-account HTTP/1.1[0m" 201 -
+2024-09-26 13:07:09,050 Transfer: From 1 to 2: 50.0
+2024-09-26 13:07:09,050 127.0.0.1 - - [26/Sep/2024 13:07:09] "POST /transfer HTTP/1.1" 200 -
